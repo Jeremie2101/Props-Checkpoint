@@ -1,0 +1,97 @@
+/* src/custom.css */
+
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  .container {
+    background-image: url("https://i.pinimg.com/originals/08/fe/31/08fe3187c5a40266d653d3dc4dad2b0d.jpg"); /* Utilisez "url()" pour spécifier l'image */
+    background-size: cover; /* Ajustez la taille de l'image de fond */
+    background-repeat: no-repeat; /* Empêchez la répétition de l'image */
+    background-position: center; /* Centrez l'image de fond */
+    border: 1px solid #000; /* Ajoutez une bordure solide */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Centrez le contenu horizontalement */
+}
+
+  
+  /* En-tête */
+  .header {
+    background-color: #1766b4;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h5 {
+    background-color: darkgoldenrod;
+    font-size: 36px;
+  }
+  
+  /* Cartes de joueur */
+  .card {
+    background-color: #ffffffad;
+    margin: 20px 0;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+  
+  .card img {
+    max-width: 120%;
+    height: 200px;
+  }
+  
+  .card-title {
+    font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    font-weight: 600; /* Changer 'font' en 'font-weight' pour définir l'épaisseur de la police */
+    color: #333; /* Définissez la couleur du texte selon vos préférences */
+    /* Ajoutez d'autres styles si nécessaire, comme la taille de la police ou l'espacement */
+  }
+
+ h1{
+    font-family: 'Poppins', sans-serif; /* Utilisation de la police Poppins ou une autre police moderne */
+    font-weight: 700; /* Épaississement de la police pour un look moderne */
+    font-size: 50px; /* Taille de la police */
+    color: #074e22; /* Couleur du texte */
+    text-transform: uppercase; /* Mettre le texte en majuscules */
+    letter-spacing: 2px; /* Espacement entre les lettres */
+    margin-bottom: 10px; /* Espacement sous le titre */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Ombre du texte */
+}
+
+  
+  .card-text {
+    font-size: 19px;
+    color: #070303;
+  }
+  
+  
+  /* Pied de page */
+  .footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  /* Media queries pour la réactivité */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+    .card {
+      margin: 10px 0;
+    }
+  }
+  
